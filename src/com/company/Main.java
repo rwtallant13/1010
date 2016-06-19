@@ -12,6 +12,12 @@ public class Main extends JPanel {
 
     private Board board;
     private State gamestate;
+    /*
+     * Example array with "all" possable blocks
+     * Right now only contains the single box and the 2x2 box as a proof of concept
+     */
+    private Block[] blocks = new Block[]{new Block(new boolean[][]{{true},{true}},new Color(102,102,255)),
+            new Block(new boolean[][]{{true, true},{true, true}}, new Color(153, 255, 51))};
 
     private Color gridBG = new Color(0xBBADA0);
     private Color emptyColor = new Color(0xCDC1B4);
