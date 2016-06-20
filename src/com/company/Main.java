@@ -13,7 +13,7 @@ public class Main extends JPanel {
     private Board board;
     private State gamestate;
     /*
-     * Example array with "all" possable blocks
+     * Example array with "all" possible blocks
      * Right now only contains the single box and the 2x2 box as a proof of concept
      */
     private Block[] blocks = new Block[]{new Block(new boolean[][]{{true},{true}},new Color(102,102,255)),
